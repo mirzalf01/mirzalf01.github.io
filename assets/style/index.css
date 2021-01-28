@@ -1,0 +1,68 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	/* font-family: 'Roboto Slab', serif; */
+	font-family: 'Roboto', sans-serif;
+}
+/* header */
+.cool-link:after{
+	display:block;
+	content: '';
+	border-bottom: solid 3px #64f4ac;  
+	transform: scaleX(0);  
+	transition: transform 250ms ease-in-out;
+}
+.cool-link:hover:after { transform: scaleX(1); }
+/* jumbotron */
+.fa{
+	margin: 10px;
+	padding: 10px 12px;
+	background-color: none;
+	border-radius: 5px;
+}
+.fa-whatsapp{
+    margin-left: 0;
+}
+.fa-whatsapp:hover{
+	
+    cursor: pointer;
+}
+.fa-github:hover{
+	cursor: pointer;
+}
+.fa-linkedin:hover{
+	cursor: pointer;
+}
+.icon a[href]{
+	text-decoration: none;
+	color: white;
+}
+.sos-icon:hover{
+	color: #64f4ac !important;
+}
+.btn{
+	border: 1px solid #64f4ac;
+}
+.btn:hover{
+	color: black !important;
+	background-color: #64f4ac;
+}
+.jum-right{
+    line-height: 60px;
+}
+.jum-name{
+    font-weight: 600;
+}
+
+/* about */
+.sub-title{
+	border: 3px solid #64f4ac;
+    border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+/* works */
+.work-btn[href]:hover{
+	color: black !important;
+}
