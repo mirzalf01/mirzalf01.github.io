@@ -34,6 +34,9 @@ body{
 .fa-linkedin:hover{
 	cursor: pointer;
 }
+.icon{
+	background-color: #222222;
+}
 .icon a[href]{
 	text-decoration: none;
 	color: white;
@@ -65,4 +68,8 @@ body{
 /* works */
 .work-btn[href]:hover{
 	color: black !important;
+}
+
+.git:hover{
+	text-decoration: none;
 }
